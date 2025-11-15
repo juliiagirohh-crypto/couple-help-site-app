@@ -2,51 +2,53 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Couple Help – Serviços Residenciais</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <img src="logo.png" class="logo" alt="Logo Couple Help">
-  <h1>Couple Help</h1>
-  <p>Serviços de Pintura • Elétrica • Hidráulica • Reformas</p>
+<header class="hero">
+    <img src="logo.png" alt="Logo Couple Help" class="logo-hero">
+    <h1>Serviços de Pintura, Elétrica, Hidráulica e Reformas</h1>
+    <p class="sub">Atendimento rápido • Qualidade garantida • Orçamentos sem custo</p>
+
+    <a href="https://wa.me/5541988268383?text=Olá!%20Quero%20um%20orçamento." 
+       target="_blank" class="btn-whats">
+        💬 Solicitar Orçamento
+    </a>
 </header>
 
-<nav>
-  <a href="index.html">Início</a>
-  <a href="orcamento.html">Orçamento</a>
-  <a href="#projetos">Projetos</a>
-  <a href="https://wa.me/55SEUNUMERO" target="_blank">WhatsApp</a>
-</nav>
-
-<section>
-  <h2>Serviços Oferecidos</h2>
-  <ul>
-    <li>Pintura Residencial</li>
-    <li>Instalações Elétricas</li>
-    <li>Reparos Hidráulicos</li>
-    <li>Pequenas Reformas</li>
-    <li>Montagem e Instalações Diversas</li>
-  </ul>
+<section class="servicos" id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="lista-servicos">
+        <div class="item">🎨 Pintura Residencial</div>
+        <div class="item">💡 Instalações Elétricas</div>
+        <div class="item">🚰 Reparos Hidráulicos</div>
+        <div class="item">🛠 Pequenas Reformas</div>
+        <div class="item">📦 Montagens e Instalações</div>
+    </div>
 </section>
 
-<section id="projetos" class="projetos">
-  <h2>Projetos Realizados</h2>
-  <div class="grid">
-    <img src="fotos/projeto1.jpg" alt="Projeto 1">
-    <img src="fotos/projeto2.jpg" alt="Projeto 2">
-    <img src="fotos/projeto3.jpg" alt="Projeto 3">
-  </div>
+<section class="projetos" id="projetos">
+    <h2>Projetos Realizados</h2>
+    <div class="grid">
+        <img src="fotos/projeto1.jpg">
+        <img src="fotos/projeto2.jpg">
+        <img src="fotos/projeto3.jpg">
+    </div>
+</section>
+
+<section class="social">
+    <h2>Entre em Contato</h2>
+    <p>WhatsApp: <strong>41 98826-8383</strong></p>
+    <p>Instagram: <a href="https://instagram.com/couplehelpcwb" target="_blank">@couplehelpcwb</a></p>
 </section>
 
 <footer>
-  © 2025 Couple Help – Serviços Residenciais
+    © 2025 Couple Help – Curitiba, PR
 </footer>
-
-<!-- BOTÃO FIXO DO WHATSAPP -->
-<a href="https://wa.me/55SEUNUMERO" class="zap" target="_blank">WhatsApp</a>
 
 </body>
 </html>
